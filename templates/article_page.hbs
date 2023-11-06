@@ -66,11 +66,6 @@
             </div>
           {{/if}}
           <div class="article-meta">
-            {{#if settings.show_article_author}}
-              {{#link 'user_profile' id=article.author.id}}
-                {{article.author.name}}
-              {{/link}}
-            {{/if}}
 
             <div class="meta-group">
               {{#is article.created_at article.edited_at}}
