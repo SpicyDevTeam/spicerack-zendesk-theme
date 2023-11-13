@@ -4540,6 +4540,10 @@ html[dir=rtl] .notification-left-aligned {
   padding-right: 0;
 }
 
+.backtotop {
+  font-size: 12px
+}
+
 .dropdown {
   position: relative;
   display: inline-block;
